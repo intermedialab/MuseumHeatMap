@@ -17,4 +17,16 @@ Model:
 Install Motion software
 Link:
 
+Setup
+Installing NOOB on a MS-DOS formatted sd card
 
+Mooving the cronfiles folder to new installation
+
+installing Motion_ sudo apt-get install motion
+
+Walking through the Motion config file and making same changes as in the old one
+
+Setting cronjob up: crontab -e
+- then copy pasting commands from file from old installation
+
+correcting the permissions for all files in cronfiles folder, execute right was set to nobody, i changed it to anyone
