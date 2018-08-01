@@ -30,3 +30,7 @@ Setting cronjob up: crontab -e
 - then copy pasting commands from file from old installation
 
 correcting the permissions for all files in cronfiles folder, execute right was set to nobody, i changed it to anyone
+
+
+Find PI ip address
+ping raspberrypi.local
